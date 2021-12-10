@@ -2,7 +2,7 @@ weights: weighs/yolov5s.pt
 cfg: ./models/yolov5s.yaml
 data: ./data/coco128.yaml
 hyp: data/hyps/hyp.scratch.yaml
-epochs: 5
+epochs: 300
 batch_size: 16
 imgsz: 640
 rect: false
@@ -34,4 +34,4 @@ entity: null
 upload_dataset: false
 bbox_interval: -1
 artifact_alias: latest
-save_dir: runs/train/exp10
+save_dir: runs/train/exp2
